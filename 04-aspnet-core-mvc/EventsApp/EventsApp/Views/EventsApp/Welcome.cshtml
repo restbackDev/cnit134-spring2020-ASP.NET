@@ -12,9 +12,9 @@
     <h2>Welcome</h2>
 
     <ul>
-        @for (int i = 0; i < (int)ViewData["Seats"]; i++)
+        @foreach (var i in (List<Course>)ViewData["Message"])
         {
-            <li>@ViewData["Message"] @i  seats avialable</li>
+            <li>@i.Title - @i.StartDate.ToShortDateString() - @i.Type</li>
         }
     </ul>
 </body>
