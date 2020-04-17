@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D68729DB-D2C6-4BB4-A3CD-31EC9877B960}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventsApp/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="EventsApp/Views/Shared/_Layout.cshtml" Line="6" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EventsApp" expanded="True">
+            <Node name="EventsApp" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EventsApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
