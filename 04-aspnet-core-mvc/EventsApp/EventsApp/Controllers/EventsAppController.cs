@@ -17,9 +17,12 @@ namespace EventsApp.Controllers
             return View();
         }
 
-        public string Welcome(string name, int ID = 1)
+        public IActionResult Welcome(string name, int seats = 1)
         {
-            return HtmlEncoder.Default.Encode($"Hello, {name}, your ID is {ID}");
+            ViewData["Message"] = "The course " + name + " has ";
+            ViewData["Seats"] = seats;
+
+            return View();
         }
     }
 
