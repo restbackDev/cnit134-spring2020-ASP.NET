@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{D68729DB-D2C6-4BB4-A3CD-31EC9877B960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EventsApp/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventsApp/Views/EventsApp/Index.cshtml">
     <Files>
-      <File FileName="EventsApp/Views/Shared/_Layout.cshtml" Line="6" Column="40" />
+      <File FileName="EventsApp/Controllers/EventsAppController.cs" Line="17" Column="26" />
+      <File FileName="EventsApp/Views/EventsApp/Index.cshtml" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EventsApp" expanded="True">
             <Node name="EventsApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="EventsApp" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>

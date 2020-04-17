@@ -34,3 +34,4 @@
 /Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/EventsApp.pdb
 /Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/EventsApp.genruntimeconfig.cache
 /Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/EventsApp.csproj.CopyComplete
+/Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/Razor/Views/EventsApp/Index.cshtml.g.cs
