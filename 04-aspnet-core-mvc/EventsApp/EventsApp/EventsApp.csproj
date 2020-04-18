@@ -9,4 +9,7 @@
   <ItemGroup>
     <Folder Include="Views\EventsApp\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
 </Project>

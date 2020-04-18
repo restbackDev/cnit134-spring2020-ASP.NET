@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 using EventsApp.Models;
+using System.Net;
+using Newtonsoft.Json;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -20,10 +22,15 @@ namespace EventsApp.Controllers
 
         public IActionResult Welcome()
         {
-            List<Course> CourseList = GetCourses();
-            ViewData["Message"] = CourseList;
 
-            return View();
+            var webClient = new WebClient();
+            var jsondata = webClient.DownloadString(@"https://hills.ccsf.edu/~balmero/events.json");
+            var CourseList = JsonConvert.DeserializeObject<TestEvents>(jsondata);
+
+
+            return View(CourseList);
+            //List<Course> CourseList = GetCourses();   //edit p33
+            //ViewData["Message"] = CourseList;         //edit p27
         }
 
         private static List<Course> GetCourses()

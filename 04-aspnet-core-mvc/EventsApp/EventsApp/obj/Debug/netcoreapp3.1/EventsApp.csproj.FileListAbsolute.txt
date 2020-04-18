@@ -36,3 +36,4 @@
 /Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Events.cshtml.g.cs
 /Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/Razor/Views/EventsApp/Index.cshtml.g.cs
 /Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/obj/Debug/netcoreapp3.1/Razor/Views/EventsApp/Welcome.cshtml.g.cs
+/Users/jason/Desktop/ASP.NET-Projects/04-aspnet-core-mvc/EventsApp/EventsApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
