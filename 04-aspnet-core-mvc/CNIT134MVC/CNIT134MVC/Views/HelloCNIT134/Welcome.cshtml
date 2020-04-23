@@ -1,0 +1,19 @@
+﻿@model TestCourses
+
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<h2>Welcome</h2>
+
+<ul>
+    @foreach (var item in Model.courses)
+    {
+        <li>
+            @{
+                var listItem = item.Title + " - " + item.Type;
+                @Html.DisplayFor(modelItem => listItem)
+            }
+        </li>
+    }
+</ul>

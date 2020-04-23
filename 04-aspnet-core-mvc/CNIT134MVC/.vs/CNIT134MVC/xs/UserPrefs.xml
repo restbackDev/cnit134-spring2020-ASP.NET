@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{6CC3A254-D86F-4467-9842-F5D1136CCF6A}|Default">
+  <MonoDevelop.Ide.ItemProperties.CNIT134MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CNIT134MVC/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="CNIT134MVC/Views/HelloCNIT134/Index.cshtml" Line="1" Column="1" />
+      <File FileName="CNIT134MVC/Controllers/HelloCNIT134Controller.cs" Line="1" Column="1" />
+      <File FileName="CNIT134MVC/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CNIT134MVC" expanded="True">
+            <Node name="CNIT134MVC" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HelloCNIT134" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
