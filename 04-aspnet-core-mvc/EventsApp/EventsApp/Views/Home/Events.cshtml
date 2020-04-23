@@ -1,6 +1,37 @@
-﻿@{
-    ViewData["Title"] = "Eventsx";
-}
-<h1>@ViewData["Title"]</h1>
+﻿@model TestEvents
 
-<p>Use this page to detail your site's privacy policy.</p>
+@{
+    ViewData["Title"] = "Events";
+}
+
+<section class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+
+        <p>
+            We have a bunch of Exicting events placed this Seminar. The list of events we offer will help everybody understand the concepts and deliver
+            deliver maximum efficiency to day to day operations. Take a look into our product roadmap, stories from temas using ASP.NET
+            and more in the Sandbox Panel. Track your projectswith insights from different panelist in our seminar.
+            Feel free to check out our special presentation sof what ASP.NET has to offer.
+        </p>
+    </div>
+    <br />
+    <br />
+
+    <div class=""bg-info">
+        <h2>List of Events:</h2>
+        <ul>
+            @foreach (var item in Model.events)
+            {
+                <li class="eventsli">
+                    @{
+                        var listItem = "Event: " + item.Title + " - " + "Location: " + item.Location + " - " + "Time: " + item.Time;
+                        @Html.DisplayFor(modelItem => listItem)
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+
+</section>
+

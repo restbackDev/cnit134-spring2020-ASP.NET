@@ -1,21 +1,20 @@
-﻿@{
+﻿@model TestEvents
+
+@{
     ViewData["Title"] = "Welcome";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>@ViewData["Title"]</title>
-</head>
-<body>
     <h2>Welcome</h2>
 
     <ul>
-        @foreach (var i in (List<Course>)ViewData["Message"])
+        @foreach (var item in Model.events)
         {
-            <li>@i.Title - @i.StartDate.ToShortDateString() - @i.Type</li>
+            <li>
+                @{
+                    var listItem = item.Title + " - " + item.Location + " - " + item.Time;
+                    @Html.DisplayFor(modelItem => listItem)
+                }
+            </li>
         }
     </ul>
-</body> 
-</html>
+

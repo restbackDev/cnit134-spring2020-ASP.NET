@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EventsApp.Models;
 
+using System.Net;
+using Newtonsoft.Json;
+
 namespace EventsApp.Controllers
 {
     public class HomeController : Controller
@@ -25,7 +28,12 @@ namespace EventsApp.Controllers
 
         public IActionResult Events()
         {
-            return View();
+            var webClient = new WebClient();
+            var jsondata = webClient.DownloadString(@"https://hills.ccsf.edu/~balmero/events.json");
+            var CourseList = JsonConvert.DeserializeObject<TestEvents>(jsondata);
+
+
+            return View(CourseList);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

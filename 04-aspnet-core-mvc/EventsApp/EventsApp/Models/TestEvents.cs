@@ -5,7 +5,8 @@ namespace EventsApp.Models
 {
     public class TestEvents
     {
-        public IList<Course> Courses { get; set; }
+        public IList<Course> events /*courses*/ { get; set; }
+
 
     }
 }
