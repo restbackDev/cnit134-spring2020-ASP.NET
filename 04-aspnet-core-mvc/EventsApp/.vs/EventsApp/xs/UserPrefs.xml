@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{D68729DB-D2C6-4BB4-A3CD-31EC9877B960}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EventsApp/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventsApp/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="EventsApp/Models/TestEvents.cs" Line="1" Column="1" />
-      <File FileName="EventsApp/Controllers/HomeController.cs" Line="36" Column="37" />
-      <File FileName="EventsApp/Controllers/EventsAppController.cs" Line="8" Column="1" />
-      <File FileName="EventsApp/Views/Home/Events.cshtml" Line="26" Column="21" />
-      <File FileName="EventsApp/wwwroot/css/site.css" Line="72" Column="1" />
+      <File FileName="EventsApp/Models/Course.cs" Line="1" Column="1" />
+      <File FileName="EventsApp/Views/Home/Events.cshtml" Line="30" Column="28" />
+      <File FileName="EventsApp/Views/Shared/_Layout.cshtml" Line="14" Column="86" />
+      <File FileName="EventsApp/Views/Home/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,16 +12,12 @@
           <Node name="EventsApp" expanded="True">
             <Node name="EventsApp" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="EventsApp" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

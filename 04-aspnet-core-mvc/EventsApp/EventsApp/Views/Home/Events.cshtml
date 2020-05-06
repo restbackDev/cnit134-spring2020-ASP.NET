@@ -5,6 +5,7 @@
 }
 
 <section class="container">
+
     <div class="jumbotron">
         <h1 class="display-4">@ViewData["Title"]</h1>
 
@@ -14,16 +15,15 @@
             and more in the Sandbox Panel. Track your projectswith insights from different panelist in our seminar.
             Feel free to check out our special presentation sof what ASP.NET has to offer.
         </p>
-    </div>
-    <br />
-    <br />
+        <br />
+        <br />
 
-    <div class=""bg-info">
-        <h2>List of Events:</h2>
+    <div class="container list-group">
         <ul>
+            <li class="list-group-item list-group-item-action active">List of Events:</li>
             @foreach (var item in Model.events)
             {
-                <li class="eventsli">
+                <li class="eventsli list-group-item list-group-item-action">
                     @{
                         var listItem = "Event: " + item.Title + " - " + "Location: " + item.Location + " - " + "Time: " + item.Time;
                         @Html.DisplayFor(modelItem => listItem)
@@ -33,5 +33,7 @@
         </ul>
     </div>
 
+
+    </div>
 </section>
 
